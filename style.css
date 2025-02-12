@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.main {}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ff004f;
+    position: sticky;
+    top: 0;
+
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar img {
+    height: 50px;
+    width: 80px;
+    padding: 5px 2px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.info {
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.info img {
+    width: 50%;
+    height: 60vh;
+    margin-top: -20%;
+    margin-left: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.info h2 {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.info h2 span {
+    color: #ff004f;
+}
+
+
+#about {
+    padding: 120px 0;
+    color: #ababab;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col1 {
+    flex-basis: 35%;
+}
+
+.col1 img {
+    width: 100%;
+    border-radius: 15px;
+    margin: 60px;
+}
+
+.col2 {
+    flex-basis: 60%;
+}
+
+.col2 h1 {
+    background-color: #ff004f;
+}
+
+.col2 h5 {
+    padding: 5px 25px;
+    margin: 15px;
+    font-size: medium;
+}
+
+.col2 p {
+    margin: 20px;
+    padding: 5px 5px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 6rem;
+    line-height: 0.5;
+    margin-bottom: 12rem;
+    background-color: #ff004f;
+    padding: 20px 0px;
+}
+
+.services {
+    background: ;
+}
+
+.cardwrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 8rem;
+    text-align: center;
+}
+
+.card {
+    background: #ababab;
+    padding: 4rem 3rem;
+    position: relative;
+    margin: 0 5rem;
+    transition: all .3s ease;
+}
+
+
+.card img {
+    width: 40%;
+    border-radius: 15px;
+    margin: 60px;
+    height: 150px;
+    position: absolute;
+    top: -10.5rem;
+    left: 50%;
+    transform: translate(-90%);
+}
+
+.card h2 {
+    color: black;
+    margin-bottom: 2rem;
+    font-size: 400;
+}
+
+.card p {
+    color: azure;
+    line-height: 1.6;
+}
+
+.card:hover {
+    background: whitesmoke;
+}
+
+.card:hover h2 {
+    color: black;
+}
+
+.card:hover p {
+    color: black;
+}
+
+.work h1 {
+    text-align: center;
+    margin-top: 8rem;
+    line-height: 0.5;
+    margin-bottom: 12rem;
+    background-color: #ff004f;
+    padding: 20px 0px;
+}
+
+
+.wrapcard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    margin: 5%;
+    padding: 10px 10px;
+}
+
+.wrap {
+    background: white;
+    color: black;
+}
+
+.wrapcontent {
+    padding: 2rem;
+}
+
+.wrapcontent h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.wrapcontent a {
+    color: black;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.wrapcontent a:hover {
+    color: #ff004f;
+    text-decoration: underline;
+}
+
+.wrap img {
+    width: 100%;
+    height: 50%;
+}
+
+form {
+    width: 70%;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+    padding-left: 30%;
+    background-image: url(https://www.yourselfquotes.com/wp-content/uploads/APJ-Abdul-Kalam-Quotes08.jpg);
+    background-size: cover;
+}
+
+.input {
+    width: 100%;
+    margin: 10px;
+}
+
+button {
+    background-color: rgb(192, 240, 202);
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 5rem;
+    line-height: 0.5;
+    margin-bottom: 12rem;
+    background-color: #ff004f;
+    padding: 20px 0px;
+
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #ff004f;
+    color: white;
+    margin-top: 1;
+}
